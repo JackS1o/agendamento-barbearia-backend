@@ -3,7 +3,6 @@ import { authMiddleware } from '../middlewares/tokenValidation.js';
 import usersRouter from './users/index.js';
 import healthRouter from './health/index.js';
 import loginRouter from './login/index.js';
-import productsRouter from './products/index.js';
 
 const router = express.Router();
 
